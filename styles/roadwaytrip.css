@@ -1,0 +1,234 @@
+/* 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+///////////ROAD WAY TRIP////////////
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+Author : {{Veankat Chenna}}
+email  : {{venkateshchenna@gmail.com}}
+*/
+body{
+    font-family: 'Open Sans';
+    font-size: 1.7em;
+}
+a{
+    color: #333;
+}
+a:hover{
+    color: #00a956;
+}
+.loction-container{
+        
+}
+.loction-container img{
+    width: 100%;
+    position: absolute;
+    transition: all 1s ease;
+}
+.loction-container img:hover{
+    width: 105%;
+    margin-left: -5%;
+}
+.location-container .bg-image{
+    position: absolute;
+}
+.green-container{
+    background-color: #00a956;
+    color: #fff;
+}
+.pad-lg{
+    padding: 40px;
+}
+.pad-md{
+    padding: 30px;
+}
+.pad-sm{
+    padding: 20px;
+}
+.pad-nutral{
+    padding: 0px !important;
+}
+.welcome-title{
+    position: relative;
+    top:428px;
+}
+.welcome-title h1{
+    font-size: 3em;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    margin-bottom: 20px;
+}
+.gutter-bottom-21{
+    margin-bottom: 21px;
+}
+.btn,
+.label{
+    border-radius: 0px;
+}
+.btn-success,
+.label-success{
+    background-color: #00a956;
+    border: 0px solid #00914a;
+}
+.btn-success:focus,
+.btn-success.focus,
+.btn-success:hover{
+    background-color: #00914a;
+}
+.label{
+    font-weight: 400;
+}
+.main-nav{
+    background-color: #fff;
+    margin: 0;
+    padding: 7px 15px;
+    border-radius: 0;
+    box-shadow: 0px 2px 4px #666;
+    z-index: 1;
+}
+.thumb-link span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 7px 14px;
+    background-color: rgba(0,0,0,0.7);
+    width: 65%;
+    color: #fff;
+    z-index: 1;
+}
+.thumb-link:hover span{
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    background-color: rgba(0,0,0,1);
+}
+.image-container{
+    height: 200px;
+    overflow: hidden;
+}
+.image-container img{
+    width: 100%;
+}
+.gray-bg{
+    background-color: #efefef;
+    padding: 20px;
+}
+.thumbnail.md,
+.thumbnail.lg{
+    padding: 15px;
+    border-radius: 0;
+    border: 0;
+    cursor: pointer;
+}
+.thumbnail.md figcaption,
+.thumbnail.lg figcaption{
+    margin-top: 35px;
+    text-align: center;
+}
+.white-icon{
+    background-color: #fff;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 2px 2px #ccc;
+    text-align: center;
+    padding-top: 14px;
+    padding-top: calc(50px/2-14px);
+}
+.white-icon i{    
+    color: #00a956;
+}
+.absolute-center{
+    position: absolute;
+    left: 48%;
+    left: calc(100%/2 - 25px);
+    top: 190px;
+}
+.thumbnail.lg .absolute-center{
+    top: 78%;
+}
+.thumbnail.md:hover,
+.thumbnail.lg:hover{
+    box-shadow: 1px 1px 2px #ccc;
+}
+/*.thumbnail.md:hover .absolute-center{
+    top: 90px;
+}*/
+.thumbnail.lg .image-container{
+    height: 538px;
+}
+.thumbnail.md:hover .white-icon,
+.thumbnail.lg:hover .white-icon{
+    -webkit-transition: 0.1s; 
+    transition: 0.5s;
+    background-color: #00a956;
+    box-shadow: none;
+}
+.thumbnail.md:hover .white-icon i,
+.thumbnail.lg:hover .white-icon i{
+    color: #fff;
+}
+.thumbnail.md:hover h4,
+.thumbnail.lg:hover h4{
+    color: #00a956;
+}
+.carousel-inner>.item{
+    background-color: #313131;
+}
+footer{
+    padding: 30px 20px;
+    font-size: 0.8em;
+}
+footer a{
+    padding: 2px 8px;
+    color: #333; 
+}
+footer i{
+    color: #00a956;
+}
+footer .footer-links{
+    margin-bottom: 10px;
+}
+.border-bottom{
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 10px;
+}
+/* XXXXXXXXXXXXXXXXXXXX media XXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXxxxXXXXX*/
+@media screen and (min-width: 768px){
+    .carousel-inner>.item{
+        height: 710px;
+    }
+    .carousel-inner.home-slide .carousel-caption{
+        background-color: #313131;
+        right:0;
+        left:0;
+        bottom:0;
+        padding: 30px;
+        height: 420px;
+    }
+    .home-slide .label{
+        position: absolute;
+        top: 278px;
+        left: 30px;
+        z-index: 1;
+        font-size: 14px;
+    }
+    .home-slide .carousel-indicators li{
+        width: 30px;
+        border-radius: 0;
+    }
+    .pad-nutral.thumbnail{
+        border: 0;
+        border-radius: 0;
+        margin: 0;
+    }
+    .navbar-nav>li>a:hover{
+        background-color: transparent;
+    }
+}
